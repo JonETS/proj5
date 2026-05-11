@@ -4,3 +4,7 @@ In the HTML head script, find "API_KEY_GOES_HERE" and replace with your own.
 
 THIS PAGE DOES NOT HAVE THE API KEY
 https://jonets.github.io/proj5/
+
+PROFESSOR
+CHECK THE COMMENTS IN THE ASSIGNMENT SUBMISSION
+FOR MY API KEY.

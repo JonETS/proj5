@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSUN Geoguesser</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src ="https://maps.googleapis.com/maps/api/js?key=API_KEY_GOES_HERE"></script> <!--REPLACE WITH YOUR OWN API KEY FOR PRIVACY/SECURITY REASONS-->
+  </head>
+  <body>
+    <article>
+      <header>
+        <h4>
+          HIGH SCORE: <span id="score">0</span>
+        </h4>
+        <h1>
+          CSUN Geoguesser
+        </h1>
+        <h2>
+          Double Click The Location On The Map To Answer
+        </h2>
+      </header>
+      <main>
+      <div class="questions">
+        <!--Questions-->
+        <ol>
+          <li id="question1">
+            <h3>
+            Where is Police Services?
+            </h3>
+            <p class="result" id="answer1"> 
+            <!--Insert Correct or Incorrect--> 
+            </p>
+          </li>
+          <li id="question2">
+            <h3>
+            Where is Orange Grove?
+            </h3>
+            <p class="result" id="answer2"> 
+            <!--Insert Correct or Incorrect-->
+            </p>
+          </li>
+          <li id="question3">
+            <h3>
+            Where is Arbor Court?
+            </h3>
+            <p class="result" id="answer3"> 
+            <!--Insert Correct or Incorrect-->
+            </p>
+          </li>
+          <li id="question4">
+            <h3>
+            Where is Maple Hall?
+            </h3>
+            <p class="result" id="answer4"> 
+            <!--Insert Correct or Incorrect-->
+            </p>
+          </li>
+          <li id="question5">
+            <h3>
+            Where is The Matador Statue?
+            </h3>
+            <p class="result" id="answer5"> 
+            <!--Insert Correct or Incorrect--> 
+            </p>
+          </li>
+        </ol>
+      </div>
+      <div id="map">
+      <!--The Map will be inserted here-->
+      </div>
+    </main>
+    <footer>
+    </footer>
+    </article>
+  </body>
+</html>
